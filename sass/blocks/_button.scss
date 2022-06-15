@@ -1,0 +1,117 @@
+.button {
+    &--header {
+        width: 155px;
+        height: 46px;
+        background: #DC780B;
+        border-radius: 5px;
+        border: none;
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+    }
+    &--promo {
+        width: 158px;
+        height: 60px;
+        background: #DC780B;
+        border-radius: 5px;
+        border: none;
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+    }
+    &--promoSecond {
+        width: 170px;
+        height: 60px;
+        border: 1.5px solid #DC780B;
+        border-radius: 5px;
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #DC780B;
+        }
+    }
+    &--about {
+        width: 142px;
+        height: 42px;
+        background: #DC780B;
+        border-radius: 5px;
+        border: none;
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+    }
+    &--menu {
+        width: 36px;
+        height: 34px;
+        background: #DC780B;
+        border-radius: 5px;
+        border: none;
+        color: #fff;
+        font-size: 30px;
+    }
+    &--away {
+        width: 163px;
+        height: 48px;
+        background: #150C01;
+        border-radius: 5px;
+        border: none;
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            margin-left: 10px;
+        }
+    }
+    &--awaySecond {
+        width: 179px;
+        height: 48px;
+        border: 1.5px solid #150C01;
+        border-radius: 5px;
+        background: rgba(255,255,255,.1);
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #150C01;
+            margin-left: 10px;
+        }
+    }
+    &--contact {
+        width: 156px;
+        height: 75px;
+        background: #DC780B;
+        border-radius: 10px;
+        border: none;
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 41px;
+            color: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.promo {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_title {
+            font-family: 'Philosopher';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48.83px;
+            line-height: 58px;
+            color: #150C01;
+            width: 555px;
+            padding-top: 177px;
+        }
+        &_image {
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        &_descr {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #150C01;
+            width: 555px;
+            margin-top: 42px;
+        }
+        &_buttons {
+            display: flex;
+            margin-top: 50px;
+            &_button {
+                margin: 0 15px;
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.footer {
+    background: #252525;
+    min-height: 429px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 137px;
+    }
+    &__item {
+        &_title {
+            font-family: 'Philosopher';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+        &_logo {
+            margin-bottom: 25px;
+        }
+        &_link {
+            margin: 8.5px 0;
+            a {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                color: rgba(255,255,255,.7);
+                text-decoration: none;
+            }
+        }
+        &_list {
+            &_type {
+                margin: 20px 0;
+                a {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: rgba(255,255,255,.7);
+                    text-decoration: none;
+                }
+            }
+        }
+        &_icons {
+            display: flex;
+            &_icon {
+                margin: 0 7px;
+                cursor: pointer;
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}

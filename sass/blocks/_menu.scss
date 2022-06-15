@@ -1,0 +1,99 @@
+.menu {
+    min-height: 700px;
+    padding-bottom: 200px;
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #DC780B;
+    }
+    &__subtitle {
+        font-family: 'Philosopher';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 24px;
+        text-align: center;
+        color: #150C01;
+        margin-top: 9px;
+    }
+    &__descr {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #150C01;
+        text-align: center;
+        width: 748px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    &__item {
+        width: 30%;
+        margin-bottom: 30px;
+        &_block {
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 75px 10px 10px 10px;
+            padding-bottom: 30px;
+            &_titles {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                padding-left: 25px;
+                &_title {
+                    font-family: 'Philosopher';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 24px;
+                    color: #150C01;
+                }
+                &_price {
+                    font-family: 'Philosopher';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 24px;
+                    color: #150C01;
+                    padding-right: 25px;
+                }
+            }
+            &_image {
+                img {
+                    border-radius: 10px 10px 0px 0px;
+                }
+            }
+            &_descr {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #150C01;
+                width: 310px;
+                padding-left: 25px;
+                margin-top: 20px;
+            }
+            &_btns {
+                display: flex;
+                justify-content: space-between;
+                padding-left: 25px;
+                padding-right: 25px;
+                margin-top: 20px;
+            }
+        }
+    }
+}

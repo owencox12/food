@@ -1,0 +1,97 @@
+.testimonial {
+    min-height: 700px;
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #DC780B;
+        padding-top: 150px;
+    }
+    &__subtitle {
+        font-family: 'Philosopher';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        margin: 0 auto;
+        margin-top: 12px;
+        width: 555px;
+    }
+    &__descr {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        margin: 0 auto;
+        margin-top: 23px;
+        width: 750px;
+    }
+    &__item {
+        margin-top: 73px;
+        &_image {
+            text-align: center;
+        }
+        &_descr {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #000000;
+            width: 506px;
+            margin: 0 auto;
+            margin-top: 41px;
+            margin-bottom: 20px;
+        }
+        &_rating {
+            text-align: center;
+        }
+        &_name {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+            margin-top: 32px;
+        }
+        &_info {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+            margin-top: 6px;
+        }
+        &_left {
+            position: absolute;
+            left: 15%;
+            top: 50%;
+            cursor: pointer;
+            z-index: 1000;
+        }
+        &_right {
+            position: absolute;
+            right: 15%;
+            top: 50%;
+            cursor: pointer;
+            z-index: 1000;
+        }
+    }
+}

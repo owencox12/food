@@ -1,0 +1,50 @@
+.away {
+    min-height: 518px;
+    background: #FBF1E7;
+    position: relative;
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #DC780B;
+        padding-top: 114px;
+    }
+    &__subtitle {
+        font-family: 'Philosopher';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 41px;
+        color: #150C01;
+        width: 555px;
+    }
+    &__descr {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #150C01;
+        width: 555px;
+        margin-top: 29px;
+    }
+    &__buttons {
+        display: flex;
+        margin-top: 39px;
+        &_button {
+            margin: 0 15px;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+    &__image {
+        position: absolute;
+        right: 20%;
+        top: -20%;
+    }
+}
